@@ -1,1 +1,174 @@
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 1px 3px -2px black;
+    background-color: #b3d1ff; 
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.menu-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    color: #213547;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar li a:hover, .navbar li a.active {
+    color: #ff027c;
+}
+
+.login button {
+    background: #ff027c;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.comunidad-body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: url('/FONDOCOMUNIDAD.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: rgba(244, 244, 244, 0.8); }
+
+.comunidad-text {
+    flex: 1;
+    padding-right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.comunidad-actions {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.action {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.action img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.action p {
+    flex: 1;
+}
+
+
+footer {
+    background-color: #232323;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    font-size: 14px;
+}
+
+.footer-section h3 {
+    color: #ccc;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-section p, .footer-section a {
+    margin: 5px 0;
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.app-links img {
+    width: 100px;
+    margin: 5px;
+}
+
+
+.footer-section i {
+    margin-right: 5px;
+}
+
+.textpie {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 20px;
+}
+
+.search-box input {
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box img {
+    width: 24px;
+}
+
