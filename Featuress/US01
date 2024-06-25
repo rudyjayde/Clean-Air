@@ -1,0 +1,14 @@
+Ferature:Activación de Notificaciones
+
+
+Descripcion:
+Como usuario, quiero recibir notificaciones y recordatorios para mantenerse comprometido con la reducción de mi huella de carbono
+
+Escenario 1: Ingresar a Notificaciones
+Dado que existe la sección "Configuración"
+Cuando el usuario ingrese a la opción "Notificaciones"
+Entonces el sistema mostrará la opción de activar o desactivar las notificaciones.
+Escenario 2: Personalizar mis notificaciones
+Dado que el usuario desea personalizar sus notificaciones 
+Cuando acceda a la opción "Editar notificaciones"
+Entonces se mostrará un panel de configuración con opciones para ajustar los tipos específicos de notificaciones que desea recibir, como consejos personalizados, recordatorios para verificar su huella de carbono, o información sobre eventos y campañas relacionadas con la reducción de CO2.
