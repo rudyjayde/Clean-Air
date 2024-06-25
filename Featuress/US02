@@ -1,0 +1,14 @@
+Ferature: Acceder al foro
+
+
+Descripcion:
+Como cliente, quiero conectarme a un foro donde los usuarios compartan sus experiencias relacionadas a la reducción del CO2.
+
+Escenario 1: Ingresar a la sección foro
+Dado que Clean Air tiene una sección de foro
+Cuando el cliente ingrese a la categoría de “foro interactivo”
+Entonces el sistema muestra el foro y los comentarios de los demás clientes en tiempo real
+Escenario 2: Interactuar con un cliente en específico
+Dado que cliente puede crear un chat privado con otro cliente y el sistema incluye un canal de mensaje privado
+Cuando el cliente seleccione la opción “Mensaje directo a …”
+Entonces el sistema enviará el mensaje al cliente receptor y permitirá enviar una respuesta.
